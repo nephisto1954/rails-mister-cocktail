@@ -1,0 +1,10 @@
+<h1>Edit the Dosage</h1>
+
+<%= simple_form_for([@cocktail, @dose]) do |f| %>
+<%= f.association :ingredient %>
+<%= f.input :description %>
+<%= f.submit "Edit" %>
+
+<% end %>
+
+<%= link_to "Back", cocktail_path(@cocktail) %>
