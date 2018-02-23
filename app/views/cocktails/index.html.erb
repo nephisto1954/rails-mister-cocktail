@@ -1,4 +1,4 @@
-
+<div class="container">
   <h1>List of Cocktails </h1>
 
   <% @cocktails.each do |cocktail| %>
@@ -9,5 +9,7 @@
   </ul>
   <% end %>
 
-  <%= link_to "Create a new Cocktail", new_cocktail_path  %>
+  <a class="btn btn-primary btn-lg"> Create a New Cocktail<%link_to "Create a new Cocktail", new_cocktail_path  %></a>
+
+</div>
 
