@@ -3,10 +3,9 @@
   text-align: center;
   height: 100vh;
   background-size: cover !important;
-  display: flex;
+  display: grid;
   align-items: center;
   justify-content: center;
-  position: absolute;
 }
 .banner h1 {
   font-size: 50px;
